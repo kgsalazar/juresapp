@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="primary_light">#FFE0B2</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+
+    <!-- Colores para el Dashboard-->
+    <color name="gris">#757575</color>
+    <color name="purpula">#7c4dff</color>
+    <color name="purpulaOscuro">#7144EF</color>
+    <color name="amarilloPalido">#FCBF2F</color>
+    <color name="amrillo">#FFB300</color>
+    <color name="amrilloOscuro">#ffb609</color>
+    <color name="verdeAgua">#00bfa5</color>
+    <color name="verdeAguaOscuro">#00AB93</color>
+    <color name="rosado">#FF4081</color>
+    <color name="rosadoOscuro">#FF1967</color>
+
+    <!--Colores para el card de jovenes -->
+    <color name="morado">#9c27b0</color>
+    <color name="verde">#1b5e20</color>
+    <color name="naranja">#ff5722</color>
+    <color name="indigo">#3f51b5</color>
+    <color name="deep_purple">#673ab7</color>
+    <color name="ligth_green">#689f38</color>
+
+    <integer-array name="initial_colors">
+        <item>@color/morado</item>
+        <item>@color/verde</item>
+        <item>@color/naranja</item>
+        <item>@color/indigo</item>
+        <item>@color/deep_purple</item>
+        <item>@color/ligth_green</item>
+    </integer-array>
+
+</resources>

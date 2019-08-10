@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1097624685835",
+    "firebase_url": "https://jurescaym-3650f.firebaseio.com",
+    "project_id": "jurescaym-3650f",
+    "storage_bucket": "jurescaym-3650f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097624685835:android:afde48d83db70fb5",
+        "android_client_info": {
+          "package_name": "com.example.appjurescaym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097624685835-11b3ilhm995n6fouv9s8sdq29qsrb0nd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appjurescaym",
+            "certificate_hash": "fee379072bd25832da01a298376a3d6e03c592c8"
+          }
+        },
+        {
+          "client_id": "1097624685835-f5lb1tr3it4v683ags4gi3vh7k8pd9u7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWLG9AhHLvGcs2-iqud0CaB6tU3XNoSvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097624685835-f5lb1tr3it4v683ags4gi3vh7k8pd9u7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,6 +3,9 @@
     package="com.example.appjurescaym">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Permiso para wallpaper-->
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
 
     <application
         android:allowBackup="true"

@@ -26,7 +26,7 @@ public class NavegacionAdmin extends AppCompatActivity {
                         volverInicio();
                         return true;
                     case R.id.navigation_actividad:
-
+                         irActividades();
                         return true;
                     case R.id.navigation_inscripcion:
 
@@ -54,11 +54,21 @@ public class NavegacionAdmin extends AppCompatActivity {
         Intent intent=new Intent(this, PrincipalAdmin.class);
         startActivity(intent);
     }
+    public void irActividades(){
+        Intent intent=new Intent(this, ActividadesActivity.class);
+        startActivity(intent);
+    }
     public void validaFragment(){
         FragmentManager fragmentManager = getSupportFragmentManager();
         if(getIntent().getStringExtra("DefaultFragment").equals("Publicacion")){
 
             fragmentManager.beginTransaction().replace(R.id.contenedorAdm,new Publicacion()).commit();
+
+        }
+
+        if(getIntent().getStringExtra("DefaultFragment").equals("Actividad")){
+
+            irActividades();
 
         }
     }

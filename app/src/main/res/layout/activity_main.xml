@@ -57,6 +57,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/boton_borde_redondeado"
+        android:onClick="registrarse"
         android:text="@string/btRegistrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

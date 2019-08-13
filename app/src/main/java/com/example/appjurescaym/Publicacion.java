@@ -5,7 +5,9 @@ import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -29,6 +31,7 @@ public class Publicacion extends Fragment {
     RecyclerView mRecyclerView;
     FirebaseDatabase mFirebaseDatabase;
     DatabaseReference mRef;
+    FloatingActionButton fbtnAgregarPubl;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -44,6 +47,19 @@ public class Publicacion extends Fragment {
 
         mFirebaseDatabase=FirebaseDatabase.getInstance();
         mRef=mFirebaseDatabase.getReference("Publicacion");
+
+        fbtnAgregarPubl=view.findViewById(R.id.fbtnAgregarPubl);
+       fbtnAgregarPubl.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent intent = new Intent(getContext(), CreaPublicacion.class);
+               startActivity(intent);
+           }
+       });
+        String usuario="kgsalazarc@ccss.sa.cr";
+        if(usuario.equals("keivin97salazar@gmail.com")){
+            fbtnAgregarPubl.hide();
+        }
         return view;
 
     }

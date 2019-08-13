@@ -150,7 +150,7 @@ public class DetallePublicacion extends AppCompatActivity {
         //Ruta de imagen externa
         File path= Environment.getExternalStorageDirectory();
         //se crea carpeta llamada "Firebase"
-        File dir=new File("/Firebase/");
+        File dir=new File(path+"/Firebase/");
         dir.mkdirs();
         //nombre de la imagen
         String nombreImagen=timeStamp+".PNG";

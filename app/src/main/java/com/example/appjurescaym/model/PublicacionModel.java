@@ -7,6 +7,13 @@ public class PublicacionModel {
 
     }
 
+    public PublicacionModel(String titulo,String cuerpo,String imagen) {
+
+        this.titulo = titulo;
+        this.cuerpo = cuerpo;
+        this.imagen = imagen;
+    }
+
     public String getTitulo() {
         return titulo;
     }

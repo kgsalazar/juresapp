@@ -23,4 +23,10 @@ public class PrincipalAdmin extends AppCompatActivity {
         intent.putExtra("DefaultFragment","Actividad");
         startActivity(intent);
     }
+
+    public void irInscripciones(View view){
+        Intent intent = new Intent(this,NavegacionAdmin.class);
+        intent.putExtra("DefaultFragment","Inscripcion");
+        startActivity(intent);
+    }
 }

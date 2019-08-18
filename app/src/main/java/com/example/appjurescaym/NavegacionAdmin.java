@@ -29,7 +29,7 @@ public class NavegacionAdmin extends AppCompatActivity {
                          irActividades();
                         return true;
                     case R.id.navigation_inscripcion:
-
+                        fragmentManager.beginTransaction().replace(R.id.contenedorAdm,new InscripcionFragment()).commit();
                         return true;
                     case R.id.navigation_noticia:
                         // fragmentManager.beginTransaction().replace(R.id.contenedorAdm,new NoticiasAdm()).commit();
@@ -69,6 +69,18 @@ public class NavegacionAdmin extends AppCompatActivity {
         if(getIntent().getStringExtra("DefaultFragment").equals("Actividad")){
 
             irActividades();
+
+        }
+           irInscripciones();
+
+
+    }
+
+    private void irInscripciones() {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        if(getIntent().getStringExtra("DefaultFragment").equals("Inscripcion")){
+
+            fragmentManager.beginTransaction().replace(R.id.contenedorAdm,new InscripcionFragment()).commit();
 
         }
     }

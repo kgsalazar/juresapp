@@ -63,7 +63,10 @@ public class ActividadesModel {
         this.monto = monto;
     }
 
-
+    @Override
+    public String toString() {
+        return nombre;
+    }
 
 
 

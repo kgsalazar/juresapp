@@ -144,7 +144,7 @@ public class ActividadesActivity extends AppCompatActivity implements View.OnCli
         am.setHora(etHora.getText().toString());
         am.setMonto(etMonto.getText().toString());
         databaseReference.child("Actividad").child(am.getUid()).setValue(am);
-        Toast.makeText(this,"Actividad agregada corrextamente",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"Actividad agregada correctamente",Toast.LENGTH_LONG).show();
 
         borrarCampos();
 

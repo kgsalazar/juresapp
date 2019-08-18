@@ -28,4 +28,17 @@
     <string name="title_activity_navegacion_admin">NavegacionAdmin</string>
     <string name="formato_fecha">dd/mm/yyyy</string>
     <string name="formato_hora">hh:mm</string>
+
+    <string name="etNombre">Nombre</string>
+    <string name="etApellido1">Primer apellido</string>
+    <string name="etApellido2">Segundo apellido</string>
+    <string name="etTelefono">Telefono</string>
+    <string name="etActividad">Actividad</string>
+    <string name="etMinisterio">Ministerio</string>
+    <string name="etEdad">Edad</string>
+    <string name="etTelefonoEncargado">Telefono encargado</string>
+    <string name="etPadecimientos">Padecimientos...</string>
+    <string name="btnGuardar">Guardar</string>
+
+
 </resources>

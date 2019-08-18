@@ -94,34 +94,36 @@
                         android:textSize="16sp" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="150dp"
-                    android:layout_weight="1"
                     android:layout_margin="2dp"
-                    android:orientation="vertical"
+                    android:layout_weight="1"
                     android:background="@color/purpula"
+                    android:clickable="true"
                     android:foreground="?attr/selectableItemBackground"
-                    android:clickable="true">
+                    android:onClick="irInscripciones"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:layout_marginTop="20dp"
                         android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
                         android:src="@drawable/ic_inscripcion"
-                        android:tint="@color/backgroundcolor"
-                        />
+                        android:tint="@color/backgroundcolor" />
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:padding="8dp"
                         android:layout_marginTop="20dp"
                         android:background="@color/purpulaOscuro"
+                        android:padding="8dp"
                         android:text="Inscripciones"
-                        android:textSize="16sp"
                         android:textAlignment="center"
                         android:textColor="@color/backgroundcolor"
-                        />
+                        android:textSize="16sp" />
 
                 </LinearLayout>
             </LinearLayout>

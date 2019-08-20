@@ -114,10 +114,21 @@ public class InscripcionFragment extends Fragment {
                 myRef = database.getReference();
                 myRef.child("Inscripcion").child(im.getId()).setValue(im);
                 Toast.makeText(getContext(),"Inscripción agregada correctamente",Toast.LENGTH_LONG).show();
+                borrarCampos();
             }
         });
         return view;
 
+    }
+
+    private void borrarCampos() {
+        etNombre.setText("");
+        etApellido1.setText("");
+        etApellido2.setText("");
+        etTelefono.setText("");
+        etEdad.setText("");
+        etTelefonoEncargado.setText("");
+        etPadecimiento.setText("");
     }
 
 }
